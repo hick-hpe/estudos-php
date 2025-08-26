@@ -24,7 +24,7 @@ Agora, basta abrir http://localhost:8000 no navegador.
 
 ## 📚 Conteúdo dos estudos
 
-- [Página inicial](./estudos/index.php)
+- [Página inicial](index.php)
 - [Variáveis e Constantes](./estudos/index.php)
     - Tipos de dados: string, int, float, boolean, array.
     - Definição de variáveis e constantes.
@@ -83,3 +83,4 @@ Agora, basta abrir http://localhost:8000 no navegador.
     - CRUD de tarefas ou produtos.
     - Uso de templates simples (include e require).
 
+<!-- pasta estudos/ e projetos/ -->
