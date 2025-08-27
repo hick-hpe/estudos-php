@@ -35,7 +35,12 @@ todolist/
 - `criar-tarefa.php`: Script para adicionar novas tarefas.
 - `excluir-tarefa.php`: Script para excluir tarefas.
 - `filtrar-tarefas.php`: Script para filtrar tarefas por nome.
-- `style.css`: Estilos personalizados do projeto.
+- `assets/style.css`: Estilos personalizados do projeto.
+- `assets/script.js`: Scripts personalizados do projeto.
+- `auth/excluir-conta.php`: Remove os dados do usuário da sessão e encerra o login.
+- `auth/login.php`: Verifica se o usuário existe, valida a senha e inicia a sessão do usuário.
+- `auth/logout.php`: Encerra a sessão do usuário logado
+- `auth/register.php`: Gerencia o registro de novos usuários.
 - `README.md`: Documentação do projeto.
 
 ## 📝 Funcionalidades

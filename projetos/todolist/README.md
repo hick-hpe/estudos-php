@@ -28,7 +28,8 @@ todolist/
 - `criar-tarefa.php`: Script para adicionar novas tarefas.
 - `excluir-tarefa.php`: Script para excluir tarefas.
 - `filtrar-tarefas.php`: Script para filtrar tarefas por nome.
-- `style.css`: Estilos personalizados do projeto.
+- `assets/style.css`: Estilos personalizados do projeto.
+- `assets/script.js`: Scripts personalizados do projeto.
 - `README.md`: Documentação do projeto.
 
 ## 📝 Funcionalidades
