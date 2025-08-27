@@ -34,7 +34,6 @@ todolist/
 - `index.php`: Página principal da lista de tarefas.
 - `criar-tarefa.php`: Script para adicionar novas tarefas.
 - `excluir-tarefa.php`: Script para excluir tarefas.
-- `filtrar-tarefas.php`: Script para filtrar tarefas por nome.
 - `assets/style.css`: Estilos personalizados do projeto.
 - `assets/script.js`: Scripts personalizados do projeto.
 - `auth/excluir-conta.php`: Remove os dados do usuário da sessão e encerra o login.
