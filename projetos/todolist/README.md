@@ -46,4 +46,4 @@ Para subir o servidor PHP embutido, basta rodar no terminal dentro da pasta do p
 docker run -it --rm -v "$PWD":/var/www/html -p 8000:8000 php:8.2-cli php -S 0.0.0.0:8000 -t /var/www/html
 ```
 
-Agora, basta abrir http://localhost:8000/projetos/todolist/index.php no navegador.
+Agora, basta abrir http://localhost:8000/projetos/todolist/ no navegador.
