@@ -25,7 +25,7 @@ Agora, basta abrir http://localhost:8000 no navegador.
 ## 📚 Conteúdo dos estudos
 
 - [Página inicial](index.php)
-- [Variáveis e Constantes](./estudos/index.php)
+- [Variáveis e Constantes](./estudos/variaveis.php)
     - Tipos de dados: string, int, float, boolean, array.
     - Definição de variáveis e constantes.
     - Escopo de variáveis (local, global, superglobais).
