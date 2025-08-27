@@ -13,7 +13,6 @@ docker run --rm -v "$PWD":/var/www/html -p 8000:8000 php:8.2-cli php -S 0.0.0.0:
 ```
 
 O que esse comando faz: <br>
-- `-it`: modo interativo com terminal.
 - `--rm`: remove o contêiner ao parar.
 - `-v "$PWD":/var/www/html`: monta a pasta atual no contêiner.
 - `-p 8000:8000`: expõe o servidor na porta 8000.
