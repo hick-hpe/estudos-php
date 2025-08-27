@@ -1,6 +1,6 @@
 # 📝 Todo List
 
-Um projeto básico de _TodoList_ para gerenciar tarefas.
+Um projeto básico de _TodoList_ para gerenciar tarefas, com autenticação de usuários.
 
 ## 📚 Conceitos abordados:
 - Entrada e Saída de Dados
@@ -17,10 +17,17 @@ todolist/
 ├── assets/
 │   ├── script.js
 │   └── style.css
+├── auth/
+│   ├── excluir-conta.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── register.php
 ├── atualizar-tarefa.php
 ├── criar-tarefa.php
 ├── excluir-tarefa.php
 ├── index.php
+├── register-form.php
+├── tarefas.php
 ├── README.md
 ```
 
@@ -45,4 +52,4 @@ Para subir o servidor PHP embutido, basta rodar no terminal dentro da pasta do p
 docker run -it --rm -v "$PWD":/var/www/html -p 8000:8000 php:8.2-cli php -S 0.0.0.0:8000 -t /var/www/html
 ```
 
-Agora, basta abrir http://localhost:8000/projetos/todolist/index.php no navegador.
+Agora, basta abrir http://localhost:8000/projetos/todolist_v2/login-form.php no navegador.
