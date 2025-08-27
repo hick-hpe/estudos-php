@@ -20,7 +20,7 @@ $tarefas = $_SESSION['tarefas'] ?? [];
     <div class="container shadow p-3 rounded-2">
         <form action="" method="post">
             <div class="mb-3">
-                <label for="inputPesquisa" class="form-label">Pesquise pelas tarefas</label>
+                <label for="inputPesquisa" class="form-label"><i class="bi bi-search"></i> Pesquise pelas tarefas</label>
                 <input type="text" class="form-control" id="inputPesquisa" name="inputPesquisa"
                     placeholder="Pesquise pelas tarefas">
             </div>
@@ -28,7 +28,7 @@ $tarefas = $_SESSION['tarefas'] ?? [];
 
         <div class="mb-3">
             <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adicionarTarefa">
-                <i class="bi bi-plus"></i> Adicionar tarefa
+                <i class="bi bi-plus-lg"></i> Adicionar tarefa
             </button>
         </div>
 
@@ -44,7 +44,7 @@ $tarefas = $_SESSION['tarefas'] ?? [];
                 <tbody>
                     <?php if (empty($tarefas)): ?>
                         <tr>
-                            <td colspan="2">Não há tarefas cadastradas.</td>
+                            <td colspan="3">Não há tarefas cadastradas.</td>
                         </tr>
                         <li class="list-group-item"></li>
                     <?php else: ?>
