@@ -68,7 +68,10 @@ todolist/
 ## 🚀 Como rodar o projeto
 
 Para subir o servidor:
-- Acesse o diretório `projetos/todolist_v3/`
+- Acesse o diretório onde está o arquivo `docker-compose.yml`: 
+    ```bash
+    cd projetos/todolist_v3/
+    ```
 - Execute:
     ```bash
     docker compose up -d
