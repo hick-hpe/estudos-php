@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.table-scroll {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
